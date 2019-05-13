@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+	Verti by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Vero Bustamante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body class="left-sidebar">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <div id="header-wrapper">
+        <header id="header" class="container">
+          <!-- Logo -->
+          <!-- Nav -->
+          <nav id="nav" style="left: 527px; width: 483px;">
+            <ul>
+              <li class="current"><a href="index.html">Hola</a></li>
+            
+              <li><a href="sobre_mi.html">Acerca de </a></li>
+              <li><a href="proyectos.html"> Proyectos</a></li>
+              <li><br>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- Main -->
+      <div id="main-wrapper">
+        <div class="container">
+          <div class="row 200%">
+            <div class="4u 12u$(medium)">
+              <div id="sidebar">
+                <!-- Sidebar -->
+                <section>
+                  <h3>Aplicaciones de la Descomposición en valores singulares</h3>
+                  <p>Este tema que difícilmente se explica su aplicación en
+                    álgebra, tiene muchos usos.</p>
+                  <footer> <a href="https://www.researchgate.net/publication/263583897_La_descomposicion_en_valores_singulares_SVD_y_algunas_de_sus_aplicaciones"
+                      class="button icon fa-info-circle">Averígualos</a> </footer>
+                </section>
+                <section>
+                  <h3>Nunca te olvides de ésto<br>
+                    <iframe src="https://www.youtube.com/embed/Cnros82SUf0" allow="autoplay; encrypted-media"
+                      allowfullscreen="" width="300" height="200" frameborder="0"></iframe>
+                  </h3>
+                  <h3>Otros artículos de álgebra</h3>
+                  <ul class="style2">
+                    <li><a href="tips_dvs.html">Tios de DVS<br>
+                      </a></li>
+                    <li><a href="bon_r3_sin_gm_pic.html">BON de R3 sin GM, pic<br>
+                      </a></li>
+                    <li><a href="tips_autovalores.html">Tips de autovalores</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+            <div class="8u 12u$(medium) important(medium)">
+              <div id="content">
+                <!-- Content -->
+                <article>
+                  <h2>Entendiendo DVS</h2>
+                  <h3>Recordemos qué es una DVS</h3>
+                  <p></p>
+                  <p>Es una descomposición de una matriz A tal que:</p>
+                  <p>A=UΣV<sup>T</sup><br>
+                    Dónde:<br>
+                    * U tiene una BON de Col(A)<i> (asociada a autoespacios de
+                      A*A<sup>T</sup>)</i>+ Nul(A<sup>T</sup>)<i> (igual a
+                      Nul(A*A<sup>T</sup>))</i><br>
+                    * Σ tiene los valores singulares de A<i> (o sea las raíces
+                      de los avas de A*A<sup>T</sup> o A<sup>T</sup>*A)</i><br>
+                    * V tiene una BON de Fil(A) <i>(asociada a autoespacios de
+                      A<sup>T</sup>*A) </i>+ Nul(A) <i>(o sea Nul(A<sup>T</sup>*A))</i></p>
+                  <p><i>¿Es cierto que teniendo cualquier BON de cada uno de
+                      estos subespacios puedo armar una DVS de A?</i></p>
+                  <p>No, <b>no es cierto</b>, ahora voy a demostrar un ejemplo
+                    de por qué eso no pasa para U, queda como tarea demostrarlo
+                    para V.</p>
+                  <img src="images/a_planchada.jpeg" alt="hola" title="AB" style="width: 574px; height: 1909px;"><br>
+                  Así que no podemos agarrar al azar una BON de Col(A) o Fil (A)
+                  y armar la DVS :( era re fácil sino.<br>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <!-- Scripts -->© Untitled. All rights reservedDesign: <a href="http://html5up.net">HTML5
+        UP</a>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script> </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+	Verti by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Vero Bustamante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body class="no-sidebar">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <div id="header-wrapper">
+        <header id="header" class="container">
+          <!-- Nav -->
+          <nav id="nav" style="left: 527px; width: 483px;">
+            <ul>
+              <li class="current"><a href="index.html">Hola</a></li>
+              <li><a href="sobre_mi.html">Acerca de </a></li>
+              <li><a href="proyectos.html"> Proyectos</a></li>
+              <li><br>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- Main -->
+      <div id="main-wrapper">
+        <div class="container">
+          <div id="content">
+            <!-- Content -->
+            <article>
+              <h2>Acerca de</h2>
+              <p>Hola, mi nombre es Vero, estudio Ingeniería desde el 2014. Sigo
+                ingeniería en electrónica e ingeniería en informática por
+                simultaneidad. Me gustan las actividades que pongan la
+                creatividad en juego, me gusta crear cosas nuevas y aprenderlas
+                también. Quiero ser ayudante de alguna materia que haya cursado
+                e investigadora, considero que me gustarían ambas actividades.
+                Me gusta explicar. <br>
+                Considero a Jesús mi salvador y mi Señor. </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      © Untitled. All rights reserved Design: <a href="http://html5up.net">HTML5
+        UP</a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

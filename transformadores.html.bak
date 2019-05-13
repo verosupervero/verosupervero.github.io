@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--
+	Verti by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Vero Bustamante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body class="left-sidebar">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <div id="header-wrapper">
+        <header id="header" class="container">
+          <!-- Logo -->
+          <!-- Nav -->
+          <nav id="nav" style="left: 527px; width: 483px;">
+            <ul>
+              <li class="current"><a href="index.html">Hola</a></li>
+              <li>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Magna phasellus</a></li>
+                  <li> <a href="#">Phasellus consequat</a>
+                    <ul>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Phasellus consequat</a></li>
+                      <li><a href="#">Magna phasellus</a></li>
+                      <li><a href="#">Etiam dolore nisl</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Veroeros feugiat</a></li>
+                </ul>
+              </li>
+              <li><a href="sobre_mi.html">Acerca de </a></li>
+              <li><a href="proyectos.html"> Proyectos</a></li>
+              <li><br>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- Main -->
+      <div id="main-wrapper">
+        <div class="container">
+          <div class="row 200%">
+            <div class="4u 12u$(medium)">
+              <div id="sidebar">
+                <!-- Sidebar -->
+                <section>
+                  <h3>Apuntes de electromagnetismo</h3>
+                  <p>Encontrá los apuntes de electromagnetismo de Fernández
+                    acerca de éste tema y otros</p>
+                  <footer> <a href="http://materias.fi.uba.ar/6209/download/download.htm"
+                      class="button icon fa-info-circle">Ir a los apuntes</a> </footer>
+                </section>
+                <section>
+                  <h3>Nunca te olvides de ésto </h3>
+                  Las condiciones de frontera y de contorno para electricidad y
+                  magnetismo en medios lineales son prácticamente iguales en
+                  forma y demostración.<br>
+                  <br>
+                  <h3>Artículos de álgebra</h3>
+                  <ul class="style2">
+                    <li><a href="tips_dvs.html">Tios de DVS<br>
+                      </a></li>
+                    <li><a href="bon_r3_sin_gm_pic.html">BON de R3 sin GM, pic<br>
+                      </a></li>
+                    <li><a href="tips_autovalores.html">Tips de autovalores</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+            <div class="8u 12u$(medium) important(medium)">
+              <div id="content">
+                <!-- Content -->
+                <article>
+                  <h2>Transformadores</h2>
+                  <div class="caja"> Un transformador es básicamente un toroide
+                    con dos bobinados, uno conectado a una fuente y el otro
+                    desconectado.</div>
+                  <h2> La corriente inducida en el bobinario secundario</h2>
+                  <h3><em><span>Sin saber bornes homólogos:<b> Tenemos que
+                          fijarnos el enrollamiento.</b></span></em></h3>
+                  <h3> Primer ejemplo</h3>
+                  <p>Supongamos que tenemos este caso:</p>
+                  <center> <img class="img_responsive" src="fisica/caso1bobina.png"
+                      alt="a" title="bobina_a"></center>
+                  <p>El campo B generado por esa corriente en la bobina 1 va a
+                    ser, respetando "la regla de la mano derecha" en vista a
+                    como entra la corriente y como està enrollado el bobinado 1:</p>
+                  <center><img class="img_responsive" src="fisica/caso1bobinab1.png"
+                      alt="a" title="a"><br>
+                  </center>
+                  Como el campo B está aumentando en el tiempo entonces en el
+                  bobinado secundario se va a inducir una corriente(ya que hay
+                  un cambio de flujo) de tal forma que el B inducido quiera
+                  hacer que el B total tienda a ser el inicial, para eso, el B
+                  inducido debe ir en sentido contrario al B de la primera
+                  bobina. Debe ocurrir que segùn el enrollamiento para que se
+                  cumpla ese sentido, la corriente inducida entre "por la pata
+                  de abajo".<br>
+                  <br>
+                  <img class="img_responsive" src="fisica/caso1bobinab2.png" alt="a"
+                    title="a"><br>
+                  <h3><br>
+                  </h3>
+                  <h3>Otro ejemplo:</h3>
+                  <center><img class="img_responsive" src="fisica/caso2bobina.png"
+                      alt="b" title="b"></center>
+                  <br>
+                  En este caso la corriente también aumenta en el tiempo y el B
+                  del primer bobinado toma la dirección verde. Como en el caso
+                  anterior necesitamos un B que vaya en sentido contrario, para
+                  eso, la corriente inducida debe entrar por la "pata de
+                  arriba".<br>
+                  <br>
+                  <img class="img_responsive" src="fisica/caso2bobinab2.png" alt="b"
+                    title="b">
+                  <p> </p>
+                  <h3>Un último ejemplo:</h3>
+                  <center><img class="img_responsive" src="fisica/caso3bobina.png"
+                      alt="c" title="c"></center>
+                  <br>
+                  Supongamos que ahora tenemos un campo que entra por donde
+                  indica la flecha y disminuye en el tiempo. Para que el B total
+                  en el tiempo tienda a ser el inicial entonces el Binducido va
+                  a tratar de "ayudar" al B que se va haciendo cada vez más
+                  chico, entonces ambos B van a tener iguales sentidos y para
+                  que el B inducido acompañe al otro va a tener que entrar por
+                  la "pata de abajo.<br>
+                  <br>
+                  <center><img class="img_responsive" src="fisica/caso3bobinabs.png"
+                      alt="c" title="c"></center>
+                  <br>
+                  <h3><em><span><b>Con bornes homólogos: El enrollamiento no nos
+                          importa.<br>
+                        </b></span></em></h3>
+                  <span style="color: #444444;">
+                    <center><img class="img_responsive" src="fisica/homologas_1.jpeg"
+                        alt="a" title="a"></center>
+                  </span> Claramente en este ejemplo no sabemos cómo están
+                  enrollados los bobinados, <b>¿Cómo se hace? </b><br>
+                  Bueno, básicamente se usan los mismos principios, pero
+                  teniendo en cuenta la definición de bornes homólogos (*).<br>
+                  No me interesa saber si el borne está arriba o está abajo o lo
+                  que sea para este caso, solo voy a poder decir que:<br>
+                  <br>
+                  <div class="caja_sub">*Si tengo una <b>I(t) que <u>aumenta
+                        en el tiempo</u></b>, el B inducido que quiero generar
+                    va a tener que ser un <u><b>B inducido en sentido opuesto</b></u>
+                    al que se genere en la bobina primaria, por lo tanto, la
+                    corriente inducida entraría por el <b>borne no homólogo</b>.</div>
+                  <span style="color: #444444;">
+                    <div class="caja_sub"> *Si tengo una<b> I(t) que <u>disminuye
+                          en el tiempo</u></b>, el B inducido que quiero generar
+                      va a tener que ser un <u><b>B inducido en el mismo
+                          sentido</b></u> al que se genere en la bobina
+                      primaria, por lo tanto, la corriente inducida entraría por
+                      el <b>borne homólogo</b>.</div>
+                    <i><u>Si no sé cómo está enrollado el bobinado no puedo
+                        saber el sentido del B!!!</u></i> Sólo puedo saber la
+                    "relación de sentidos" entre los B's. Para hacer un
+                    ejercicio más completo podemos pedir saber cómo es el
+                    enrollado y cuáles son los bornes homólogos.<br>
+                    <sup>(*) </sup></span><sup>Consultar en la guía de física
+                    ii </sup></article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
+      <!-- MatJax --> © Untitled. All rights reservedDesign: <a href="http://html5up.net">HTML5
+        UP</a>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">    </script>
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+		// MatJax Macros
+    MathJax.Hub.Config({
+    	TeX: {
+        Macros: {        // Quick notation for vector spaces and numbers
+        NN: ["{  \\mathbb{R}^{#1}  }", 1, ""],        ZZ: ["{  \\mathbb{Z}^{#1}  }", 1, ""],
+        QQ: ["{  \\mathbb{Q}^{#1}  }", 1, ""],        RR: ["{  \\mathbb{R}^{#1}  }", 1, ""],
+        CC: ["{  \\mathbb{C}^{#1}  }", 1, ""],        PP: ["{  \\text{P}_{#1}  }", 1, ""],
+        Cf: ["{  \\mathcal{C}^{#1}  }", 1, ""],        KK: ["{  \\mathbb{K}^{#1} }", 1, ""],
+        // General vector spaces notation
+        space: ["{ \\mathbb{#1} }", 1],        field: ["{ \\mathbb{#1} }", 1],
+        ss: ["{ \\text{#1} }", 1],
+        // Usual Generic spaces        VV: "{ \\mathbb{V} }",
+        WW: "{ \\mathbb{W} }",
+        // Matrix        mtx: ["{ \\begin{bmatrix} #1 \\end{bmatrix} }", 1],
+        // Others
+        ortog: ["{ {#1}^{\\perp} }", 1],        inner: ["{ \\left \\langle #1, #2 \\right \\rangle }",2],
+        trans: ["{ {#1}^{\\text{T}} }", 1],        herm: ["{ {#1}^{\\text{H}} }", 1],
+        conj: ["{ \\bar{#1} }", 1],        norm: ["{ \\left \\| {#1} \\right \\| }", 1],
+        penrose: ["{ {#1}^{\\dagger} }", 1],        proy: ["{ \\mathcal{P}_{#1} \\left (  #2  \\right ) }", 2],
+          Re: ["{ \\mathfrak{Re} \\left( #1 \\right) }", 1],        Im: ["{ \\mathfrak{Im} \\left( #1 \\right) }", 1],
+        // Operators
+        eqdef: "\\triangleq",        then: "\\Rightarrow",
+        sii: "\\text{sii}",        qed: "\\tag*{$\\square$}",
+        // Spaces
+        gen: ["{ gen \\left \\lbrace #1 \\right \\rbrace }",1],        dim: ["{ dim \\left ( #1 \\right ) }",1],
+        // Matrix Fundamental Spaces
+        col: ["{ Col \\left ( #1 \\right ) }",1],        fil: ["{ Fil \\left ( #1 \\right ) }",1],
+        nul: ["{ Nul \\left ( #1 \\right ) }",1],
+        // Linear Transform        nu: ["{ Nu \\left [ #1 \\right ] }",1],
+        im: ["{ Im \\left [ #1 \\right ] }",1]
+        }
+      }
+    });
+  </script> </div>
+  </body>
+</html>

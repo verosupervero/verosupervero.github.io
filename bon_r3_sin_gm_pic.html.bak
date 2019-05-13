@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+	Verti by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href="ecuaciones_latex.html" rel="import">
+    <title>Vero Bustamante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body class="left-sidebar">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <div id="header-wrapper">
+        <header id="header" class="container">
+          <!-- Logo -->
+          <!-- Nav -->
+          <nav id="nav" style="left: 527px; width: 483px;">
+            <ul>
+              <li class="current"><a href="index.html">Hola</a></li>
+              <li><a href="sobre_mi.html">Acerca de </a></li>
+              <li><a href="proyectos.html"> Proyectos</a></li>
+              <li><br>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- Main -->
+      <div id="main-wrapper">
+        <div class="container">
+          <div class="row 200%">
+            <div class="4u 12u$(medium)">
+              <div id="sidebar">
+                <!-- Sidebar -->
+                <section>
+                  <h3>Aplicaciones de la Descomposición en valores singulares</h3>
+                  <p>Este tema que difícilmente se explica su aplicación en
+                    álgebra, tiene muchos usos.</p>
+                  <footer> <a href="https://www.researchgate.net/publication/263583897_La_descomposicion_en_valores_singulares_SVD_y_algunas_de_sus_aplicaciones"
+                      class="button icon fa-info-circle">Averígualos</a> </footer>
+                </section>
+                <section>
+                  <h3>Videos de formas cuadráticas y DVS<br>
+                  </h3>
+                  Miralos <a href="http://materias.fi.uba.ar/6108/videos">acá</a>
+                  <h3><br>
+                  </h3>
+                  <h3>Otros artículos de álgebra</h3>
+                  <ul class="style2">
+                    <li><a href="tips_dvs.html">Tios de DVS<br>
+                      </a></li>
+                    <li><a href="bon_r3_sin_gm_pic.html">BON de R3 sin GM, pic<br>
+                      </a></li>
+                    <li><a href="tips_autovalores.html">Tips de autovalores</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+            <div class="8u 12u$(medium) important(medium)">
+              <div id="content">
+                <!-- Content -->
+                <article>
+                  <h2>¿Cómo armo una BON sin hacer Gram-Smith en R3 con PIC?</h2>
+                  <h3>Si tenemos S de dimensión 2</h3>
+                  <p></p>
+                  <p>Hacemos el producto vectorial de los generadores de S, eso
+                    te va a dar S ortogonal, luego, agarrás ese vectorcito de S
+                    ortogonal y haces el producto vectorial con alguno de los
+                    generadores de S que tenías previamente, ¡Listo!</p>
+                  <img class="img_responsive" src="images/bon_s.jpeg" alt="hola"
+                    title="AB">
+                  <h3>Si tenemos S de dimensión 1</h3>
+                  <p>Es más complicado de explicar:</p>
+                  <img class="img_responsive"  src="images/bon_s_dim1.jpeg" alt="hola" title="AB"
+                    ><br>
+                  También se puede optar por sacar S ortogonal "a mano" si está
+                  con ecuaciones o usando la forma de &lt;(x,y,z),v1&gt;=0 y
+                  despejar en pic.<br>
+                  <br>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->© Untitled. All rights reservedDesign: <a href="http://html5up.net">HTML5
+        UP</a>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script> </div>
+  </body>
+</html>

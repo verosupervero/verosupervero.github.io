@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--
+	Verti by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Vero Bustamante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  </head>
+  <body class="left-sidebar">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <div id="header-wrapper">
+        <header id="header" class="container">
+          <!-- Logo -->
+          <!-- Nav -->
+          <nav id="nav" style="left: 527px; width: 483px;">
+            <ul>
+              <li class="current"><a href="index.html">Hola</a></li>
+              <li><a href="sobre_mi.html">Acerca de </a></li>
+              <li><a href="proyectos.html"> Proyectos</a></li>
+              <li><br>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- Main -->
+      <div id="main-wrapper">
+        <div class="container">
+          <div class="row 200%">
+            <div class="4u 12u$(medium)">
+              <div id="sidebar">
+                <!-- Sidebar -->
+                <section>
+                  <h3>Aplicaciones de la Descomposición en valores singulares</h3>
+                  <p>Este tema que difícilmente se explica su aplicación en
+                    álgebra, tiene muchos usos.</p>
+                  <footer> <a href="https://www.researchgate.net/publication/263583897_La_descomposicion_en_valores_singulares_SVD_y_algunas_de_sus_aplicaciones"
+                      class="button icon fa-info-circle">Averígualos</a> </footer>
+                </section>
+                <section>
+                  <h3>Videos de formas cuadráticas y DVS<br>
+                  </h3>
+                  Miralos <a href="http://materias.fi.uba.ar/6108/videos">acá</a>
+                  <h3></h3>
+                  <h3><br>
+                  </h3>
+                  <h3>Otros artículos de álgebra</h3>
+                  <ul class="style2">
+                    <li><a href="tips_dvs.html">Tios de DVS<br>
+                      </a></li>
+                    <li><a href="bon_r3_sin_gm_pic.html">BON de R3 sin GM, pic<br>
+                      </a></li>
+                    <li><a href="tips_autovalores.html">Tips de autovalores</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+            <div class="8u 12u$(medium) important(medium)">
+              <div id="content">
+                <!-- Content -->
+                <article>
+                  <h2>Tips Autovalores</h2>
+                  Suponete que trabajamos con matrices de 3x3:<br>
+                  <br>
+                  <h3> 1-Siempre fijate si 0 es ava, de ser así : </h3>
+                  <span style="color: #444444;"><b>Multiplicidad doble de 0 y
+                      autoespacio de dimensión 2:</b><br>
+                    &nbsp;Suponete que sea generado por v1 y v2. Si es una
+                    matriz simétrica, unitaria o hermítica, el otro autoespacio
+                    está generado por el ortogonal a esos 2, hace el producto
+                    vectorial y sacá el otro ave y vas a ver que el valor de la
+                    traza de la matriz va a ser el valor del ava que te faltaba.<br>
+                    <br>
+                    <b>Multiplicidad simple de 0:</b><br>
+                    Suponete que el autoespacio 0 está generado por un solo
+                    vector, ahí se te va a complicar más ya que vas a tener
+                    estos datos:<br>
+                    λ1+λ2+0=traza<br>
+                    λ1*λ2*0=0<br>
+                    De la primera podés despejar fácil. Proba "crear ceros" en
+                    las columnas para sacar los otros, suponete que tenés esta
+                    matriz: \begin{bmatrix} &nbsp;9 &amp; 0 &amp; 7\\ &nbsp;5
+                    &amp; 2 &amp; 0\\ &nbsp;7 &amp; 0 &amp; 0\\&nbsp;
+                    \end{bmatrix} Bueno esta matriz si le restas 2&nbsp; veces
+                    la identidad notás que se te anula la columna del medio,
+                    entonces 2 es ava. Vale para cualquier matriz este método.<br>
+                    Si no podés crear ceros, fijate de probar números comunes en
+                    la calcu:<br>
+                    det(A-3I), det(A-I), det(A-2I)... si tenés una buena calcu
+                    es excelente opción.<br>
+                    Otro tip es que si tenés una matriz simétrica donde la
+                    diagonal es todo un mismo número, la suma de las filas es
+                    uno de los autovalores: </span> <span style="color: #444444;"><span
+                      style="color: #444444;"> \begin{bmatrix}&nbsp; 1 &amp; 5
+                      &amp; 9\\ &nbsp;5 &amp; 1 &amp; 3\\&nbsp; 3 &amp; 9 &amp;
+                      1\\&nbsp; \end{bmatrix} </span> De esta matriz un ava es
+                    9+1+3 (o sea si las filas suman lo mismo eso es ava y además
+                    sacas que un ave asociado a ese ava es el (1 1 1)<sup>T</sup><br>
+                    Pero no es exclusivo de las simétricas con igual diagonal
+                    (aunque sea uno de los casos), puede ocurrir en otras
+                    también, como en esta: </span> <span style="color: #444444;"><span
+                      style="color: #444444;"> \begin{bmatrix} &nbsp;9 &amp; 2
+                      &amp; 9\\&nbsp; 9 &amp; 2 &amp; 9\\&nbsp; 9 &amp; 2 &amp;
+                      9\\&nbsp; \end{bmatrix} </span>
+                    <h3> </h3>
+                    <h3>2- Si cero no es ava: </h3>
+                    Con la traza y el determinante te las arreglás bastante
+                    bien, acordate que los posibles divisores del determinante
+                    de la matriz son posibles autovalores.<br>
+                    Por ejemplo, una matriz tiene determinante 4, entonces sus
+                    posibles autovalores son +-1,+-2 y +-4.<br>
+                    Sumado a un par de tips que vimos antes, tiene que poder
+                    salir en la mayoría de los casos. Conseguite una buena calcu
+                    y justificá que det(A-ava_encontrado*I)=0 si encontras un
+                    ava de esta forma <u>SIEMPRE</u>.<br>
+                    <br>
+                    Trucos parecidos valen para matrices más grandes.<br>
+                  </span> </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer --> © Untitled. All rights reservedDesign: <a href="http://html5up.net">HTML5
+        UP</a>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
+      <!-- MatJax -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">    </script>
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+		// MatJax Macros
+    MathJax.Hub.Config({
+    	TeX: {
+        Macros: {        // Quick notation for vector spaces and numbers
+        NN: ["{  \\mathbb{R}^{#1}  }", 1, ""],        ZZ: ["{  \\mathbb{Z}^{#1}  }", 1, ""],
+        QQ: ["{  \\mathbb{Q}^{#1}  }", 1, ""],        RR: ["{  \\mathbb{R}^{#1}  }", 1, ""],
+        CC: ["{  \\mathbb{C}^{#1}  }", 1, ""],        PP: ["{  \\text{P}_{#1}  }", 1, ""],
+        Cf: ["{  \\mathcal{C}^{#1}  }", 1, ""],        KK: ["{  \\mathbb{K}^{#1} }", 1, ""],
+        // General vector spaces notation
+        space: ["{ \\mathbb{#1} }", 1],        field: ["{ \\mathbb{#1} }", 1],
+        ss: ["{ \\text{#1} }", 1],
+        // Usual Generic spaces        VV: "{ \\mathbb{V} }",
+        WW: "{ \\mathbb{W} }",
+        // Matrix        mtx: ["{ \\begin{bmatrix} #1 \\end{bmatrix} }", 1],
+        // Others
+        ortog: ["{ {#1}^{\\perp} }", 1],        inner: ["{ \\left \\langle #1, #2 \\right \\rangle }",2],
+        trans: ["{ {#1}^{\\text{T}} }", 1],        herm: ["{ {#1}^{\\text{H}} }", 1],
+        conj: ["{ \\bar{#1} }", 1],        norm: ["{ \\left \\| {#1} \\right \\| }", 1],
+        penrose: ["{ {#1}^{\\dagger} }", 1],        proy: ["{ \\mathcal{P}_{#1} \\left (  #2  \\right ) }", 2],
+          Re: ["{ \\mathfrak{Re} \\left( #1 \\right) }", 1],        Im: ["{ \\mathfrak{Im} \\left( #1 \\right) }", 1],
+        // Operators
+        eqdef: "\\triangleq",        then: "\\Rightarrow",
+        sii: "\\text{sii}",        qed: "\\tag*{$\\square$}",
+        // Spaces
+        gen: ["{ gen \\left \\lbrace #1 \\right \\rbrace }",1],        dim: ["{ dim \\left ( #1 \\right ) }",1],
+        // Matrix Fundamental Spaces
+        col: ["{ Col \\left ( #1 \\right ) }",1],        fil: ["{ Fil \\left ( #1 \\right ) }",1],
+        nul: ["{ Nul \\left ( #1 \\right ) }",1],
+        // Linear Transform        nu: ["{ Nu \\left [ #1 \\right ] }",1],
+        im: ["{ Im \\left [ #1 \\right ] }",1]
+        }
+      }
+    });
+  </script> </div>
+  </body>
+</html>
