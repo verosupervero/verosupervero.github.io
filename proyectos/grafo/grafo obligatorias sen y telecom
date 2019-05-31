@@ -1,0 +1,80 @@
+Álgebra_2 Análisis_Numérico
+Álgebra_2 Proba_B
+Álgebra_2 Análisis_3
+
+Análisis_2 Análisis_Numérico
+Análisis_2 Física_2
+Análisis_2 Proba_B
+Análisis_2 Análisis_3
+
+Física_1 Física_2
+Física_1 Intro_a_la_Ing_Electrónica
+Física_1 Intro_al_Diseño_Asistido
+
+Intro_a_la_Ing_Electrónica Técnica_Digital
+Intro_a_la_Ing_Electrónica ADC
+Intro_a_la_Ing_Electrónica Dispo
+
+
+
+Física_2 Dispo
+Física_2 ADC
+
+
+Análisis_3 ADC
+Análisis_3 Electromagnetismo
+
+Algoritmos_1 Análisis_Numérico
+ADC Señales_y_Sist
+ADC Circuitos_1
+Proba_B Señales_y_Sist
+Dispo Circuitos_1
+
+Física_2 Física_3
+Física_2 Electromagnetismo
+
+Dispo Labo_de_Micros
+ADC Labo_de_Micros
+Algoritmos_1 Labo_de_Micros
+Técnica_Digital Labo_de_Micros
+Señales_y_Sist Control_1
+Señales_y_Sist Procesos_Estocásticos
+48 Intro_Economía
+Labo_de_Micros Diseño_de_Circuitos_Elec
+Circuitos_1 Diseño_de_Circuitos_Elec
+Intro_al_Diseño_Asistido Diseño_de_Circuitos_Elec
+Señales_y_Sist Com_de_Datos
+Electromagnetismo Instrumentos_Electrónicos
+Circuitos_1 Instrumentos_Electrónicos
+Intro_al_Diseño_Asistido Instrumentos_Electrónicos
+Diseño_de_Circuitos_Elec Intro_a_Proyectos
+90 Ambiental
+90 Legal
+Obligatorias Tesis_TP_Prof
+Procesos_Estocásticos Com_Dig_1
+Com_Dig_1 Com_Dig_2
+Com_de_Datos Com_Dig_2
+Com_de_Datos Infraestruct_Redes
+Com_de_Datos Labo_de_Comunic
+Electromagnetismo Sist_Irradiantes
+Com_Dig_2 Com_Dig_3
+Com_de_Datos Serv_y_Redes_Com
+Sist_Irradiantes Sist_Inal
+Com_de_Datos Sist_Inal
+Diseño_de_Circuitos_Elec Transm_y_Recep_Tel
+Procesos_Estocásticos Video
+Com_de_Datos Redes_Computadoras
+Redes_Computadoras Labo_Redes_Comp
+Procesos_Estocásticos TIC
+Electromagnetismo Compatibilidad_electromagnética
+Sist_Irradiantes Radioenlaces
+Análisis_3 Analisis_Funcional
+Análisis_3 Análisis_Matricial
+Análisis_Numérico Análisis_Matricial
+Procesos_Estocásticos Proc_Señales_1
+Proc_Señales_1 Proc_Señales_2
+Señales_y_Sist Proc_Habla
+Procesos_Estocásticos Redes_Neuronales
+Procesos_Estocásticos TDE
+Proc_Señales_1 Proc_Imgs
+TDE Proc_Imgs
