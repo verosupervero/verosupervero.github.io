@@ -15,6 +15,7 @@
         border-left: 4px solid #007bff;
         padding: 15px;
         margin: 20px 0;
+        position: relative;
       }
       .juicio {
         border-left-color: #dc3545;
@@ -40,26 +41,103 @@
         text-decoration: underline;
         font-weight: bold;
       }
+      .comentario {
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 15px 0;
+        font-size: 0.9em;
+        color: #495057;
+        position: relative;
+      }
+      .comentario::before {
+        content: "💬";
+        position: absolute;
+        left: -5px;
+        top: -5px;
+        background: white;
+        padding: 2px;
+        border-radius: 50%;
+      }
+      .titulo-principal {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 10px;
+      }
+      .titulo-principal h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      .titulo-principal .autor {
+        font-size: 1.2em;
+        font-style: italic;
+      }
+      .logo-placeholder {
+        width: 60px;
+        height: 60px;
+        background-color: #f8f9fa;
+        border: 2px dashed #dee2e6;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8em;
+        color: #6c757d;
+        margin-right: 15px;
+      }
+	    .logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+        border-radius: 5px;
+      }
+      .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .brand-area {
+        display: flex;
+        align-items: center;
+      }
+      .brand-text {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #343a40;
+      }
     </style>
   </head>
-  <body class="left-sidebar">
+<body class="left-sidebar">
     <div id="page-wrapper">
       <!-- Header -->
       <div id="header-wrapper">
         <header id="header" class="container">
-          <!-- Logo -->
-          <!-- Nav -->
-          <nav id="nav" style="left: 527px; width: 483px;">
-            <ul>
-              <li class="current"><a href="index.html">Hola</a></li>
-              <li><a href="sobre_mi.html">Acerca de </a></li>
-              <li><a href="proyectos.html"> Proyectos</a></li>
-              <li><br>
-              </li>
-            </ul>
-          </nav>
+          <div class="header-content">
+            <div class="brand-area">
+              <img src="logo.png" alt="Las Notas de Vero Logo" class="logo">
+              <div class="brand-text">Las Notas de Vero</div>
+            </div>
+            <nav id="nav">
+              <ul>
+                <li><a href="sobre_mi.html">Acerca de</a></li>
+              </ul>
+            </nav>
+          </div>
         </header>
       </div>
+      
+      <!-- Título Principal -->
+      <div class="container">
+        <div class="titulo-principal">
+          <h1>Paralelismos en Apocalipsis 16-17 y 21-22</h1>
+          <div class="autor">Por Vero</div>
+        </div>
+      </div>
+
       <!-- Main -->
       <div id="main-wrapper">
         <div class="container">
@@ -67,13 +145,6 @@
             <div class="4u 12u$(medium)">
               <div id="sidebar">
                 <!-- Sidebar -->
-                <section>
-                  <h3>Paralelismos en Apocalipsis</h3>
-                  <p>Un análisis de las conexiones literarias y teológicas entre el juicio y la restauración en Apocalipsis 16-17 y 21-22.</p>
-                  <footer> 
-                    <a href="#tierra-mar" class="button icon fa-globe">Ver Paralelos</a> 
-                  </footer>
-                </section>
                 <section>
                   <h3>Estructura del Estudio</h3>
                   <ul class="style2">
@@ -88,7 +159,7 @@
                 </section>
                 <section>
                   <h3>Estudios Futuros</h3>
-                  <p>Temas pendientes para análisis:</p>
+                  <p>Temas pendientes para análisis futuro:</p>
                   <ul class="style2">
                     <li>Paralelos con Isaías</li>
                     <li>La bestia y Daniel</li>
@@ -101,9 +172,6 @@
               <div id="content">
                 <!-- Content -->
                 <article>
-                  <h1>Paralelismos en Apocalipsis 16-17 y 21-22</h1>
-                  <h4><em>Las Notas de Vero</em></h4>
-                  
                   <section>
                     <h3>Introducción</h3>
                     <p>Al leer el libro de Apocalipsis encontré unos paralelismos hermosos que presento a continuación. Es importante tener en cuenta que los ángeles bajan del cielo (ver Apocalipsis 18:1, el ángel que baja con gran autoridad). Incluso la tierra se ilumina cuando bajan ellos en al menos un caso explícito (Apocalipsis 18:2).</p>
@@ -134,8 +202,7 @@
                       <h4>Apocalipsis 16:4 (Juicio)</h4>
                       <div class="versiculo">
                         "El tercer ángel derramó su copa <span class="enfasis">sobre los ríos, y sobre las fuentes de las aguas</span>, y se convirtieron en <span class="subrayado">sangre</span>."
-                      </div>
-                      <p><em>Ver Génesis 2:6 para entender lo que digo de los ríos y agua que brota como manantiales</em></p>
+                      </div>                      
                     </div>
 
                     <div class="paralelo restauracion">
@@ -143,6 +210,10 @@
                       <div class="versiculo">
                         "También dijo: «¡Todo ha terminado! Yo soy el Alfa y la Omega, el Principio y el Fin. A todo el que tenga sed, yo le daré a beber gratuitamente de los <span class="enfasis">manantiales</span> del agua de la vida."
                       </div>
+                    </div>
+
+                    <div class="comentario">
+                      <strong>Desde Génesis 2:</strong> Los ríos y manantiales representan la provisión divina de vida desde el principio de la creación.
                     </div>
                   </section>
 
@@ -189,8 +260,7 @@
                       <h4>Apocalipsis 16:10-11 (Juicio)</h4>
                       <div class="versiculo">
                         "Después el quinto ángel derramó su copa sobre <span class="subrayado">el trono de la bestia</span>, y el <span class="subrayado">reino de la bestia</span> quedó sumergido en la <span class="subrayado">oscuridad</span>. Sus súbditos rechinaban los dientes por la <span class="subrayado">angustia</span> y <span class="subrayado">maldecían</span> al Dios del cielo por los <span class="subrayado">dolores y las llagas</span>, <em><span class="subrayado">pero no se arrepintieron de sus fechorías ni volvieron a Dios.</span></em>"
-                      </div>
-                      <p><em>Sería interesante contrastar que "no se volvieron" con que "vieron su rostro".</em></p>
+                      </div>             
                     </div>
 
                     <div class="paralelo restauracion">
@@ -200,6 +270,14 @@
                         <br><br>
                         Ya no habrá más <span class="subrayado">maldición</span> sobre ninguna cosa, porque allí estará el trono de Dios y del Cordero, y sus siervos lo adorarán. <em><span class="subrayado">Verán su rostro y tendrán su nombre escrito en la frente</span></em>."
                       </div>
+                    </div>
+
+                    <div class="comentario">
+                      <strong>Nota de Vero, Contraste fascinante:</strong> "No se volvieron" vs "Verán su rostro" - La diferencia entre el rechazo obstinado y la adoración íntima.
+                    </div>
+
+                    <div class="comentario">
+                      <strong>Nota de Vero, Adoración verdadera:</strong> Daniel se postró ante un hombre (Daniel 2:46-47), pero Apocalipsis nos enseña la adoración correcta solo a Cristo.
                     </div>
                   </section>
 
@@ -216,8 +294,16 @@
                     <div class="paralelo restauracion">
                       <h4>Apocalipsis 22:6 NTV (Consumación)</h4>
                       <div class="versiculo">
-                        "Entonces el ángel me dijo: «Todo lo que has oído y visto es verdadero y digno de confianza. El Señor Dios, que inspira a sus profetas, ha enviado a su ángel para decirles a sus siervos lo que pronto sucederá»."
+                        "Entonces el ángel me dijo: «Todo lo que has oído y visto es verdadero y digno de confianza. El Señor Dios, que inspira a sus profetas, ha enviado a su ángel para decirles a sus siervos <span class="subrayado">lo que pronto sucederá</span>»."
                       </div>
+                    </div>
+
+                    <div class="comentario">
+                      <strong>Nota de Vero, Reflexión temporal:</strong> "Escribe lo que has visto, tanto las cosas que <span class="subrayado">suceden ahora, como las que van a suceder</span>" (Apocalipsis 1:17-19) - Cristo abarca presente y futuro.
+                    </div>
+
+                    <div class="comentario">
+                      <strong>Observación de Vero:</strong> Preterismo total. ¡AFUERA! - La profecía tiene cumplimiento tanto histórico como escatológico.
                     </div>
                   </section>
 
@@ -271,7 +357,6 @@
               <div id="copyright">
                 <ul class="menu">
                   <li>© Las Notas de Vero. Todos los derechos reservados</li>
-                  <li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
                 </ul>
               </div>
             </div>
