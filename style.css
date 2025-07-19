@@ -608,6 +608,13 @@ border: 2px solid #5878ca;
 
 }
 
+/* borra el estilo fijo del navegador  */
+mark{
+  background: none;
+  color: inherit;
+  padding: 0;      /* opcional: quita el pequeño padding interno */
+}
+
 
 /* ---------- cuatro jinetes ---------- */
 /* Jinete blanco – victoria / conquista */
