@@ -16,6 +16,15 @@
 
 
 
+
+/* borra el estilo fijo del navegador  */
+mark{
+  background: none;
+  color: inherit;
+  padding: 0;      /* opcional: quita el pequeño padding interno */
+}
+
+
 /* ---------- cuatro jinetes ---------- */
 /* Jinete blanco – victoria / conquista */
 mark.jinete-blanco{
@@ -123,6 +132,19 @@ border: 2px solid  #60f659 ;
 		line-height: 1;
 	}
 
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
 	table {
 		border-collapse: collapse;
 		border-spacing: 0;
@@ -170,117 +192,6 @@ border: 2px solid  #60f659 ;
 	}
 
 	@media screen and (max-width: 1680px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 1500px;
-			min-width: 1200px;
-		}
-
-		.container.\37 5\25 {
-			width: 900px;
-		}
-
-		.container.\35 0\25 {
-			width: 600px;
-		}
-
-		.container.\32 5\25 {
-			width: 300px;
-		}
-
-		.container {
-			width: 1200px;
-		}
-
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 1200px;
-			min-width: 960px;
-		}
-
-		.container.\37 5\25 {
-			width: 720px;
-		}
-
-		.container.\35 0\25 {
-			width: 480px;
-		}
-
-		.container.\32 5\25 {
-			width: 240px;
-		}
-
-		.container {
-			width: 960px;
-		}
-
-	}
-
-	@media screen and (max-width: 980px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
-		}
-
-		.container.\37 5\25 {
-			width: 67.5%;
-		}
-
-		.container.\35 0\25 {
-			width: 45%;
-		}
-
-		.container.\32 5\25 {
-			width: 22.5%;
-		}
-
-		.container {
-			width: 90% !important;
-		}
-
-	}
-/* ── CUSTOM SIDEBAR STYLES ── */
-#sidebar {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  padding: 1.25em;
-  border-radius: 0.5em;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  margin-bottom: 2em;
-}
-
-/* Aseguramos título, sea h2 o h3 */
-#sidebar h2,
-#sidebar h3 {
-  font-size: 1.3em;
-  color: #333;
-  margin: 0 0 0.8em;
-  padding-bottom: 0.2em;
-  border-bottom: 1px solid #eee;
-}
-
-/* Texto introductorio */
-#sidebar p {
-  color: #666;
-  margin: 0 0 1em;
-  font-size: 0.95em;
-}
-
-/* Lista sin bullets nativos */
-#sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.5em;
-}
-
-/* Cada ítem con viñeta personalizada */
 #sidebar ul li {
   position: relative;
   margin: 0.5em 0;
@@ -306,17 +217,129 @@ border: 2px solid  #60f659 ;
   color: #005f8a;
   text-decoration: underline;
 }
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 1500px;
+			min-width: 1200px;
+		}
 
-/* Ajustes MÓVIL */
-@media screen and (max-width: 736px) {
-  #sidebar {
-    padding: 1em;
-  }
-  #sidebar h2,
-  #sidebar h3 {
-    font-size: 1.2em;
-  }
+		.container.\37 5\25 {
+			width: 900px;
+		}
+
+		.container.\35 0\25 {
+			width: 600px;
+		}
+
+		.container.\32 5\25 {
+			width: 300px;
+		}
+
+		.container {
+			width: 1200px;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+#sidebar ul li {
+  position: relative;
+  margin: 0.5em 0;
+  padding-left: 1.2em;
 }
+#sidebar ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0098FF;
+  font-weight: bold;
+}
+
+/* Enlaces azules con hover suave */
+#sidebar ul li a {
+  color: #0098FF;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+#sidebar ul li a:hover {
+  color: #005f8a;
+  text-decoration: underline;
+}
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 1200px;
+			min-width: 960px;
+		}
+
+		.container.\37 5\25 {
+			width: 720px;
+		}
+
+		.container.\35 0\25 {
+			width: 480px;
+		}
+
+		.container.\32 5\25 {
+			width: 240px;
+		}
+
+		.container {
+			width: 960px;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+#sidebar ul li {
+  position: relative;
+  margin: 0.5em 0;
+  padding-left: 1.2em;
+}
+#sidebar ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0098FF;
+  font-weight: bold;
+}
+
+/* Enlaces azules con hover suave */
+#sidebar ul li a {
+  color: #0098FF;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+#sidebar ul li a:hover {
+  color: #005f8a;
+  text-decoration: underline;
+}
+		.container.\31 25\25 {
+			width: 100%;
+			max-width: 112.5%;
+			min-width: 90%;
+		}
+
+		.container.\37 5\25 {
+			width: 67.5%;
+		}
+
+		.container.\35 0\25 {
+			width: 45%;
+		}
+
+		.container.\32 5\25 {
+			width: 22.5%;
+		}
+
+		.container {
+			width: 90% !important;
+		}
+
+	}
 
 	@media screen and (max-width: 736px) {
 
@@ -341,14 +364,6 @@ border: 2px solid  #60f659 ;
 		.container {
 			width: 100% !important;
 		}
-		
-	#sidebar {
-    padding: 1em;
-  }
-  #sidebar h2,
-  #sidebar h3 {
-    font-size: 1.2em;
-  }
 
 	}
 
@@ -2029,27 +2044,27 @@ border: 2px solid  #60f659 ;
 		display: inline-block;
 	}
 
-	#logo h1 {
-		background: #ff4486;
-		color: #fff;
-		border-radius: 6px;
-		font-family: 'Oleo Script', serif;
-		font-weight: 400;
-		padding: 0.25em 0.2em 0.25em 0.2em;
-		font-size: 3.25em;
-		letter-spacing: 0.05em;
-		display: inline-block;
-		vertical-align: middle;
-	}
+		#logo h1 {
+			background: #ff4486;
+			color: #fff;
+			border-radius: 6px;
+			font-family: 'Oleo Script', serif;
+			font-weight: 400;
+			padding: 0.25em 0.2em 0.25em 0.2em;
+			font-size: 3.25em;
+			letter-spacing: 0.05em;
+			display: inline-block;
+			vertical-align: middle;
+		}
 
-	#logo span {
-		font-weight: 800;
-		line-height: 4.5em;
-		letter-spacing: 0.025em;
-		font-size: 0.9em;
-		vertical-align: middle;
-		margin: 0 0 0 1.25em;
-	}
+		#logo span {
+			font-weight: 800;
+			line-height: 4.5em;
+			letter-spacing: 0.025em;
+			font-size: 0.9em;
+			vertical-align: middle;
+			margin: 0 0 0 1.25em;
+		}
 
 /* Nav */
 
@@ -2060,30 +2075,30 @@ border: 2px solid  #60f659 ;
 		font-size: 0.9em;
 	}
 
-	#nav ul li {
-		float: left;
-		line-height: 4.5em;
-		padding-left: 1.5em;
-	}
+		#nav ul li {
+			float: left;
+			line-height: 4.5em;
+			padding-left: 1.5em;
+		}
 
-	#nav ul li a, #nav ul li span {
-		-moz-transition: background-color .25s ease-in-out;
-		-webkit-transition: background-color .25s ease-in-out;
-		-ms-transition: background-color .25s ease-in-out;
-		transition: background-color .25s ease-in-out;
-		font-weight: 800;
-		letter-spacing: 0.025em;
-		color: #696969;
-		text-decoration: none;
-		border-radius: 6px;
-		padding: 0.5em 1em 0.5em 1em;
-	}
+			#nav ul li a, #nav ul li span {
+				-moz-transition: background-color .25s ease-in-out;
+				-webkit-transition: background-color .25s ease-in-out;
+				-ms-transition: background-color .25s ease-in-out;
+				transition: background-color .25s ease-in-out;
+				font-weight: 800;
+				letter-spacing: 0.025em;
+				color: #696969;
+				text-decoration: none;
+				border-radius: 6px;
+				padding: 0.5em 1em 0.5em 1em;
+			}
 
 
 
-	#nav ul li:hover a, #nav ul li:hover span {
-		background: #fff;
-	}
+			#nav ul li:hover a, #nav ul li:hover span {
+				background: #fff;
+			}
 
 			#nav ul li.active a, #nav ul li.active span {
 				background: #fff;
@@ -2747,77 +2762,76 @@ border: 2px solid  #60f659 ;
 			#copyright {
 				text-align: left;
 			}
-			
-        .bible-ref {
-            color: #0098FF;
-            font-weight: bold;
-        }
-        blockquote {
-            border-left: 4px solid var(--color-secondary);
-            padding-left: 20px;
-            margin: 20px 0;
-            color: #555;
-            font-style: italic;
-        }
-        ul, ol {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .footnotes {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #666;
-            border-top: 1px solid var(--color-border);
-            padding-top: 20px;
-            column-count: 2;
-        }
-        .footnote {
-            break-inside: avoid;
-            margin-bottom: 15px;
-        }
-        .toc {
-            background-color: var(--color-light-bg);
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-        }
-        .toc a {
-            color: var(--color-secondary);
-            text-decoration: none;
-        }
-        .toc a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            h1 {
-                font-size: 28px;
-            }
-            h2 {
-                font-size: 24px;
-            }
-            .footnotes {
-                column-count: 1;
-            }
-        }
-        /* Accesibilidad: ocultar texto solo visible para lectores de pantalla */
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            border: 0;
-        }
+/* ── STYLES SIDEBAR ADAPTATIVO ── */
+#sidebar {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 1.25em;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 2em;
+}
 
+/* Títulos (h2 o h3) */
+#sidebar h2,
+#sidebar h3 {
+  font-size: 1.3em;
+  color: #333;
+  margin: 0 0 0.8em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #eee;
+}
+
+/* Texto introductorio */
+#sidebar p {
+  color: #666;
+  margin: 0 0 1em;
+  font-size: 0.95em;
+}
+
+/* Lista sin bullets nativos */
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5em;
+}
+
+/* Cada ítem con viñeta personalizada */
+#sidebar ul li {
+  position: relative;
+  margin: 0.5em 0;
+  padding-left: 1.2em;
+}
+#sidebar ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0098FF;
+  font-weight: bold;
+}
+
+/* Enlaces azules con hover suave */
+#sidebar ul li a {
+  color: #0098FF;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+#sidebar ul li a:hover {
+  color: #005f8a;
+  text-decoration: underline;
+}
+
+/* Ajustes MÓVIL */
+@media screen and (max-width: 736px) {
+  #sidebar {
+    padding: 1em;
+  }
+  #sidebar h2,
+  #sidebar h3 {
+    font-size: 1.2em;
+  }
+}
 
 	}
-	
-	
-	
